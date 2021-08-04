@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/metaleap/go-util/fs"
+	"github.com/sablev/go-util/fs"
 )
 
 //	Returns the result of `os.Hostname` if any, else `localhost`.
