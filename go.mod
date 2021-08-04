@@ -2,8 +2,9 @@ module github.com/sablev/go-util
 
 go 1.16
 
+replace github.com/sablev/fsnotify => P:\_sandbox\fsnotify
+
 require (
-	github.com/howeyc/fsnotify v0.9.0 // indirect
 	github.com/sablev/fsnotify v0.9.0
 	golang.org/x/tools v0.1.5
 	labix.org/v2/mgo v0.0.0-20140701140051-000000000287
